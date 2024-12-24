@@ -1,0 +1,40 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  background-color: #f4f7fe;
+}
+
+
+.app {
+  display: flex;
+  flex: 1;
+
+}
+
+.content {
+  padding: 20px;
+  overflow-y: scroll; 
+  height: 100vh;
+}
+
+.content::-webkit-scrollbar {
+  display:none; 
+}
+
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.main-content h1 {
+  font-size: 36px;
+}
+
+
+
+
